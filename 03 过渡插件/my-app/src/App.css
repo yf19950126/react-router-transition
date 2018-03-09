@@ -1,0 +1,40 @@
+/*
+ 切换动画*/
+.fade-enter{
+	opacity: 0;
+	transform: translate(0,300px);
+}
+.fade-enter-active{
+	opacity: 1;
+	transition: all 0.5s;
+	transform: translate(0,0);
+}
+.fade-leave{
+	opacity: 1;
+	transform: translate(0,0);
+}
+.fade-leave-active{
+	opacity: 0;
+	transition: all 0.5s;
+	transform: translate(300px,0);
+}
+.box{
+	width: 300px;
+	height: 150px;
+	background-color: red;
+	text-align: center;
+	line-height: 150px;
+}
+
+/*出现动画*/
+.fade-appear{
+	opacity: 0;
+	transform: rotateY(180deg) scale(5);
+	background-color: green;
+}
+.fade-appear-active{
+	opacity: 1;
+	transform: scale(1);
+	background-color: red;
+	transition: all 1s;
+}

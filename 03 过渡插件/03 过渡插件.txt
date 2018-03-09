@@ -1,0 +1,17 @@
+一、过渡插件动画
+react-addons-css-transition-group
+
+安装插件
+npm i react-addons-css-transition-group --save
+
+//1、引入插件
+import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
+2、使用
+CSSTransitionGroup组件  包住要做的动画
+transitionName  动画名称
+transitionEnterTimeout 动画进入时间
+transitionLeaveTimeout  动画离开时间
+transitionAppear  是否出现动画
+transitionAppearTimeout  出现动画的时间
+
+还需要css样式的配合

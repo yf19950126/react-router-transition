@@ -1,0 +1,10 @@
+路由
+管理页面
+
+一、路由插件
+react-router-dom
+
+安装
+npm i react-router-dom --save
+
+二、使用路由

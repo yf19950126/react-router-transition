@@ -1,0 +1,16 @@
+一、父子组件之间的传值
+
+1、属性传值
+父组件的所有属性都会放在this.props对象里
+console.log(this.props)
+访问的时候  {this.props.属性}
+
+2、类似于vue中插槽
+//this.props.children里面是组件内部标签组成的数组
+{this.props.children}
+
+3、子传父
+子组件执行父组件里面的函数
+this.props.change     （change是在父组件中定义的函数）
+
+二、组件   生命周期函数

@@ -1,0 +1,19 @@
+.App{
+  width: 1200px;
+  margin: 0 auto;
+}
+h1{
+  text-align: center;
+}
+ol li{
+  font-size: 18px;
+  color: #ea6f5a;
+}
+ol li span{
+  float: right;
+  color: #ccc;
+  font-size: 15px;
+}
+.input-box{
+  padding-left: 21px;
+}
